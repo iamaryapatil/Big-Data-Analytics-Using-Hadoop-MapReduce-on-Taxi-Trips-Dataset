@@ -34,9 +34,12 @@ Built a multi-stage Hadoop pipeline to join datasets and compute total trips per
 #### How to Run
 #### Upload datasets to HDFS
 hadoop fs -put Taxis.txt /Input/
+
 hadoop fs -put Trips.txt /Input/
 
 #### Run each task
 Task1-run.sh
+
 Task2-run.sh
+
 Task3-run.sh
